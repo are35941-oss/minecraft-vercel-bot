@@ -4,7 +4,7 @@ const app = express();
 
 function startBot() {
   const bot = mineflayer.createBot({
-    host: 'SilentSeek.aternos.me', // ✏️ hier die Serveradresse einfügen
+    host: 'blastcraft496.mcsh.io', // ✏️ hier die Serveradresse einfügen
     username: 'AFKBot5', // ✏️ oder ein echter Minecraft-Account
     port: 24761,
     version: '1.21.5' // ✏️ Anpassen an deinen Server
