@@ -4,10 +4,10 @@ const app = express();
 
 function startBot() {
   const bot = mineflayer.createBot({
-    host: 'SilentSeek.aternos.me', // ✏️ hier die Serveradresse einfügen
+    host: 'play.glowsmp.bond', // ✏️ hier die Serveradresse einfügen
     username: 'AFKBot5', // ✏️ oder ein echter Minecraft-Account
-    port: 24761,
-    version: '1.21.5' // ✏️ Anpassen an deinen Server
+    port: 25565,
+    version: '1.21.11' // ✏️ Anpassen an deinen Server
   });
 
   bot.on('spawn', () => {
